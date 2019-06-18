@@ -1,0 +1,30 @@
+.hidden
+{
+	display: none;
+}
+
+/* Always start at mobile size and work up from there */
+/* Phone rules below */
+
+.box1
+{
+	width: 300px;
+	height: 300px;
+	background-color: #f5c217;
+}
+
+.box2
+{
+	width: 300px;
+	height: 300px;
+	background-color: #001ae6;
+}
+
+/* THIS IS A BASIC MEDIA QUERY */
+
+/* change the layout when viewing the app on a phone */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+	.box1 {	background-color: red;	}
+}
